@@ -1,0 +1,43 @@
+h5 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+   
+}
+
+.card-header {
+    color: white;
+    background-color: #90e0ef;
+    width: 620px;
+    padding: 10px;
+    top: 50;
+    border-radius: 20px;
+    
+}
+
+.a {
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1.5px solid black;
+    margin: 0;
+    font-size: 20px;
+    color: #f49126;
+    font-weight: bold;
+    
+    
+}
+
+.jumbotron {
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-color: black;
+    border-radius: 30px;
+}
+p{
+    padding: 5px;
+    color: black;
+    /* text-shadow: 2px 2px 4px #080808; */
+    font-weight: bold;
+    border-radius: 20px;
+}

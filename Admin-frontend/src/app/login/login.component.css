@@ -1,0 +1,12 @@
+.wrapper {
+    
+    margin-top: 160px;
+    text-decoration: black;
+    border-color: blueviolet;
+    border-radius: 2%;
+}
+
+.clean-font, .lead {
+    color: #000;
+    text-align: center;
+}

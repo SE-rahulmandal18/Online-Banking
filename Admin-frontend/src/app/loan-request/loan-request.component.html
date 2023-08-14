@@ -1,0 +1,30 @@
+<h1>Loan Requests</h1>
+
+<body style="color: rgb(175, 28, 28);">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Request Id</th>
+			<th>User Name</th>
+			<th>Contact Number</th>
+			<th>Account Number</th>
+			<th>Confirmed?</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let loanRequest of loanRequestList" >
+			<td>{{loanRequest.id}}</td>
+			<td>{{loanRequest["user"]["fullname"]}} {{loanRequest["user"]["surname"]}}</td>
+			<td>{{loanRequest["user"]["phonenumber"]}}</td>
+			<td>{{loanRequest["user"]["primaryAccount"]["accountNumber"]}}</td>
+			<td> <p *ngIf="loanRequest['accepted']" > Confirmed</p>
+				<p *ngIf="!loanRequest['accepted']" > Pending</p>
+			</td>
+
+			<td [hidden]="loanRequest.confirmed"><a *ngIf="!loanRequest['accepted']" (click)="confirmLoanRequest(loanRequest.id)" style="cursor: pointer;">Confirm</a></td>
+			<!-- <td [hidden]="!user.enabled"><a (click)="disableUser(user.username)" style="cursor: pointer;">Disable</a></td> -->
+		</tr>
+	</tbody>
+</table>   
+</body>

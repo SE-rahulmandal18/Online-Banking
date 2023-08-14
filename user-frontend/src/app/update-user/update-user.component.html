@@ -1,0 +1,79 @@
+<h1 style="text-align:center;">Update User </h1>
+<head>
+    </head>
+<div class="form-group">
+  <!-- (ngSubmit)="updData()" -->
+    <form class="form-group" [formGroup]="formData"  >
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="fullname" class="form-control"  type="text" id="fname" name="fullname" placeholder="Your first name..">
+          <div style="color: black;font-weight: 700;">{{firstnames}}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" formControlName="surname" class="form-control" id="lname" name="surname" placeholder="Your last name..">
+          <div style="color:black;">{{lastnames}}</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="email">E-Mail</label>
+        </div>
+        <div class="col-75">
+          <input type="text" formControlName="mailid" class="form-control" id="mail" name="mailid"  placeholder="Your E-mail">
+          <div style="color: black;">{{email}}</div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25">
+          <label for="Mobile">Mobile Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" formControlName="phonenumber" class="form-control" id="Mobile" name="phonenumber" placeholder="Your Mobile number">
+          <div style="color: black;">{{phonenumber}}</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="password">Password</label>
+        </div>
+        <div class="col-75">
+          <input type="text" formControlName="password" class="form-control" id="pass" name="password" placeholder="Your password">
+          <div style="color: black;">{{password}}</div>
+        </div>
+      </div> 
+  
+
+      <div class="row">
+        <div class="col-25">
+          <label for="address">Address</label>
+        </div>
+        <div class="col-75">
+          
+          <input type="text" formControlName="address" class="form-control" id="address" name="address" placeholder="Your Address">
+          <div style="color: black;">{{addresss}}</div>
+        </div>
+      </div> 
+      
+      <div class="row btn">
+        <button color="success" type="submit" value="Submit" (click)="updData()">Submit</button>
+        <button style="background-color: blue;" (click)="onclear()">Clear</button>
+      </div>
+    </form>
+  </div>
+
+      
+
+      
+
+  

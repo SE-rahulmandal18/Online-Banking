@@ -1,0 +1,30 @@
+<div class="signup-form">
+  
+<div class="jumbotron  bg-black text-white h6">
+  <p>Deposit Your Money</p>
+    <form [formGroup]="depositFundForm"> 
+    <div class="form-group text-dark">
+
+      <div class="form-group">
+        <label for="accountBalance">Balance</label>
+        <input type="text" class="form-control" readonly id="accountBalance" placeholder formControlName="balance" value="{{balanceFund}}">
+    </div>
+      <label for="accountType">Account type</label>
+      <select class="form-control" id="accountType" name="accountType" formControlName="accountType" (change)="onChange($event)">
+        <option>Primary Account</option>
+        <option>Saving Account</option>
+      </select>
+    </div>
+   
+      <div class="form-group  text-dark">
+        <label for="amountToBeDeposited">Amount to be deposited</label>
+        <input type="number" class="form-control"  id="amountToBeDeposited" formControlName="amountToBeDeposited" min=1 
+        [ngClass]="{'is-invalid':submitted && f.amountToBeDeposited.errors}">
+       
+      </div>
+
+    <button type="button" class="btn btn-primary" (click)="handleTransferFund()" id="depositMoneyButton">Deposit Money</button>
+  </form>
+</div>
+
+</div>

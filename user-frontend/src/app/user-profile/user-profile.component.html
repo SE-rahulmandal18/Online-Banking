@@ -1,0 +1,93 @@
+<div class="container-fluid">
+
+  <div class="jumbotron bg-gray text-dark p-10">
+   
+      <div class="card-header">
+          <h5 class="card-title"><b>{{userName}}'s profile</b></h5>
+      </div>
+
+      <br>
+
+      <div class="text">
+        
+      <div>
+        <p class="card-text"><b>First Name</b></p>
+        <div class="a">{{firstname}}</div>
+    </div>
+
+    <br>
+
+    <div>
+        <p class="card-text"><b>Last Name</b></p>
+        <div class="a">{{lastname}} </div>
+    </div>
+
+    <br>
+
+    <div>
+        <p class="card-text"><b>Mobile Number</b></p>
+        <div class="a">{{phonenumber}}</div>
+    </div>
+
+    <br>
+    <div>
+        <p class="card-text"><b>Email id</b> </p>
+        <div class="a">{{email}}</div>
+    </div>
+    <br>
+    <div>
+        <p class="card-text"><b>Address</b></p>
+        <div class="a">{{address}}</div>
+    </div>
+
+   
+    <br>
+</div>
+    <div class="card-header">
+        <h5 class="card-title"><b>Primary Account</b></h5>
+    </div>
+    <br>
+
+    <div class="text">
+
+        <div>
+            <p class="card-text"><b>Account Number</b> </p>
+            <div class="a">{{primaryAccountNumber}}</div>
+        </div>
+        <br>
+        <div>
+            <p class="card-text"><b>Account Balance</b></p>
+            <div class="a">&#8377;{{primaryAccountBalance}}</div>
+        </div>
+
+    </div>
+
+
+    <br>
+
+    <div class="card-header">
+        <h5 class="card-title"><b>Saving Account</b></h5>
+    </div>
+    <br>
+
+    <div class="text">
+        
+    <div>
+        <p class="card-text"><b>Account Number</b> </p>
+        <div class="a">{{savingAccountNumber}}</div>
+    </div>
+    <br>
+    <div>
+        <p class="card-text"><b>Account Balance</b></p>
+        <div class="a">&#8377;{{savingAccountBalance}}</div>
+    </div>
+
+    </div>
+<br>
+    <div class="class-header">
+      <button class="btn btn-danger" id="editbtn" style="float:right;" routerLink="/updateuser">Edit</button>
+  </div>
+
+      </div>
+
+  </div>

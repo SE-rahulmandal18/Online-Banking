@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="11" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T17:55:43 IST" name="Suite" finished-at="2023-08-14T17:56:37 IST" duration-ms="54660">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T17:55:43 IST" name="Registration" finished-at="2023-08-14T17:55:50 IST" duration-ms="7514">
+      <class name="frontEndTesting.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.RegistrationTest@2ea227af]" started-at="2023-08-14T17:55:43 IST" name="setUp" finished-at="2023-08-14T17:55:46 IST" duration-ms="3591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUser()[pri:0, instance:frontEndTesting.RegistrationTest@2ea227af]" started-at="2023-08-14T17:55:46 IST" name="registerUser" finished-at="2023-08-14T17:55:50 IST" duration-ms="3675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.RegistrationTest@2ea227af]" started-at="2023-08-14T17:55:50 IST" name="cleanUp" finished-at="2023-08-14T17:55:50 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.RegistrationTest -->
+    </test> <!-- Registration -->
+    <test started-at="2023-08-14T17:55:50 IST" name="Login" finished-at="2023-08-14T17:55:54 IST" duration-ms="4024">
+      <class name="frontEndTesting.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.LoginTest@3e2e18f2]" started-at="2023-08-14T17:55:50 IST" name="setUp" finished-at="2023-08-14T17:55:53 IST" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginUser()[pri:1, instance:frontEndTesting.LoginTest@3e2e18f2]" started-at="2023-08-14T17:55:53 IST" name="loginUser" finished-at="2023-08-14T17:55:54 IST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.LoginTest@3e2e18f2]" started-at="2023-08-14T17:55:54 IST" name="cleanUp" finished-at="2023-08-14T17:55:54 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2023-08-14T17:55:55 IST" name="ViewPrimaryAccountTest" finished-at="2023-08-14T17:56:00 IST" duration-ms="5647">
+      <class name="frontEndTesting.ViewPrimaryAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.ViewPrimaryAccountTest@17046283]" started-at="2023-08-14T17:55:55 IST" name="setUp" finished-at="2023-08-14T17:55:57 IST" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="requestChequeBook()[pri:0, instance:frontEndTesting.ViewPrimaryAccountTest@17046283]" started-at="2023-08-14T17:55:57 IST" name="requestChequeBook" finished-at="2023-08-14T17:56:00 IST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestChequeBook -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.ViewPrimaryAccountTest@17046283]" started-at="2023-08-14T17:56:00 IST" name="cleanUp" finished-at="2023-08-14T17:56:00 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.ViewPrimaryAccountTest -->
+    </test> <!-- ViewPrimaryAccountTest -->
+    <test started-at="2023-08-14T17:56:00 IST" name="DepositFundTest" finished-at="2023-08-14T17:56:06 IST" duration-ms="5821">
+      <class name="frontEndTesting.DepositFundTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.DepositFundTest@353d0772]" started-at="2023-08-14T17:56:00 IST" name="setUp" finished-at="2023-08-14T17:56:03 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depositFundInPrimaryAccount()[pri:0, instance:frontEndTesting.DepositFundTest@353d0772]" started-at="2023-08-14T17:56:03 IST" name="depositFundInPrimaryAccount" finished-at="2023-08-14T17:56:04 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositFundInPrimaryAccount -->
+        <test-method signature="depositFundInSavingAccount()[pri:0, instance:frontEndTesting.DepositFundTest@353d0772]" started-at="2023-08-14T17:56:04 IST" name="depositFundInSavingAccount" finished-at="2023-08-14T17:56:06 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositFundInSavingAccount -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.DepositFundTest@353d0772]" started-at="2023-08-14T17:56:06 IST" name="cleanUp" finished-at="2023-08-14T17:56:06 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.DepositFundTest -->
+    </test> <!-- DepositFundTest -->
+    <test started-at="2023-08-14T17:56:06 IST" name="ViewSecondaryAccountTest" finished-at="2023-08-14T17:56:09 IST" duration-ms="3131">
+      <class name="frontEndTesting.ViewSecondaryAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.ViewSecondaryAccountTest@654f0d9c]" started-at="2023-08-14T17:56:06 IST" name="setUp" finished-at="2023-08-14T17:56:09 IST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="requestChequeBook()[pri:0, instance:frontEndTesting.ViewSecondaryAccountTest@654f0d9c]" started-at="2023-08-14T17:56:09 IST" name="requestChequeBook" finished-at="2023-08-14T17:56:09 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestChequeBook -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.ViewSecondaryAccountTest@654f0d9c]" started-at="2023-08-14T17:56:09 IST" name="cleanUp" finished-at="2023-08-14T17:56:09 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.ViewSecondaryAccountTest -->
+    </test> <!-- ViewSecondaryAccountTest -->
+    <test started-at="2023-08-14T17:56:09 IST" name="TransferFundTest" finished-at="2023-08-14T17:56:21 IST" duration-ms="11525">
+      <class name="frontEndTesting.TransferFundTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.TransferFundTest@30ee2816]" started-at="2023-08-14T17:56:09 IST" name="setUp" finished-at="2023-08-14T17:56:12 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="transferFund()[pri:0, instance:frontEndTesting.TransferFundTest@30ee2816]" started-at="2023-08-14T17:56:12 IST" name="transferFund" finished-at="2023-08-14T17:56:15 IST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferFund -->
+        <test-method signature="transferFundGreaterThanBalance()[pri:0, instance:frontEndTesting.TransferFundTest@30ee2816]" started-at="2023-08-14T17:56:15 IST" name="transferFundGreaterThanBalance" finished-at="2023-08-14T17:56:18 IST" duration-ms="2686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferFundGreaterThanBalance -->
+        <test-method signature="transferFundWithIncorrectAccountNumber()[pri:0, instance:frontEndTesting.TransferFundTest@30ee2816]" started-at="2023-08-14T17:56:18 IST" name="transferFundWithIncorrectAccountNumber" finished-at="2023-08-14T17:56:21 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferFundWithIncorrectAccountNumber -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.TransferFundTest@30ee2816]" started-at="2023-08-14T17:56:21 IST" name="cleanUp" finished-at="2023-08-14T17:56:21 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.TransferFundTest -->
+    </test> <!-- TransferFundTest -->
+    <test started-at="2023-08-14T17:56:21 IST" name="WithdrawFundTest" finished-at="2023-08-14T17:56:29 IST" duration-ms="8119">
+      <class name="frontEndTesting.WithdrawFundTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.WithdrawFundTest@6ca8564a]" started-at="2023-08-14T17:56:21 IST" name="setUp" finished-at="2023-08-14T17:56:23 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="withdrawFundInPrimaryAccount()[pri:0, instance:frontEndTesting.WithdrawFundTest@6ca8564a]" started-at="2023-08-14T17:56:23 IST" name="withdrawFundInPrimaryAccount" finished-at="2023-08-14T17:56:25 IST" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawFundInPrimaryAccount -->
+        <test-method signature="withdrawFundInSavingAccount()[pri:0, instance:frontEndTesting.WithdrawFundTest@6ca8564a]" started-at="2023-08-14T17:56:25 IST" name="withdrawFundInSavingAccount" finished-at="2023-08-14T17:56:27 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawFundInSavingAccount -->
+        <test-method signature="withdrawingAmountGreaterThanCurrentAmounForPrimaryAccount()[pri:0, instance:frontEndTesting.WithdrawFundTest@6ca8564a]" started-at="2023-08-14T17:56:27 IST" name="withdrawingAmountGreaterThanCurrentAmounForPrimaryAccount" finished-at="2023-08-14T17:56:28 IST" duration-ms="1253" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Insufficient Funds] but found [Money Withdrawn successfully!!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Insufficient Funds] but found [Money Withdrawn successfully!!]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at frontEndTesting.WithdrawFundTest.withdrawingAmountGreaterThanCurrentAmounForPrimaryAccount(WithdrawFundTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawingAmountGreaterThanCurrentAmounForPrimaryAccount -->
+        <test-method signature="withdrawingAmountGreaterThanCurrentAmounForSavingsAccount()[pri:0, instance:frontEndTesting.WithdrawFundTest@6ca8564a]" started-at="2023-08-14T17:56:28 IST" name="withdrawingAmountGreaterThanCurrentAmounForSavingsAccount" finished-at="2023-08-14T17:56:29 IST" duration-ms="1029" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Money Withdrawn successfully!!}
+  (Session info: chrome=115.0.5790.171): Money Withdrawn successfully!!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAHULMANDAL', ip: '192.168.29.221', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e046163b26439101f0455ddc00c69509]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Money Withdrawn successfully!!}
+  (Session info: chrome=115.0.5790.171): Money Withdrawn successfully!!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAHULMANDAL', ip: '192.168.29.221', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e046163b26439101f0455ddc00c69509
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+at frontEndTesting.WithdrawFundTest.withdrawingAmountGreaterThanCurrentAmounForSavingsAccount(WithdrawFundTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawingAmountGreaterThanCurrentAmounForSavingsAccount -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.WithdrawFundTest@6ca8564a]" started-at="2023-08-14T17:56:29 IST" name="cleanUp" finished-at="2023-08-14T17:56:29 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.WithdrawFundTest -->
+    </test> <!-- WithdrawFundTest -->
+    <test started-at="2023-08-14T17:56:29 IST" name="RequestChequeBookTest" finished-at="2023-08-14T17:56:37 IST" duration-ms="8380">
+      <class name="frontEndTesting.RequestChequeBookTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frontEndTesting.RequestChequeBookTest@41e36e46]" started-at="2023-08-14T17:56:29 IST" name="setUp" finished-at="2023-08-14T17:56:32 IST" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="requestChequeBook()[pri:0, instance:frontEndTesting.RequestChequeBookTest@41e36e46]" started-at="2023-08-14T17:56:32 IST" name="requestChequeBook" finished-at="2023-08-14T17:56:37 IST" duration-ms="5628" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#primary"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAHULMANDAL', ip: '192.168.29.221', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2349cd7113c0d0daacc8507df10b85fb
+*** Element info: {Using=id, value=primary}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#primary"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAHULMANDAL', ip: '192.168.29.221', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2349cd7113c0d0daacc8507df10b85fb
+*** Element info: {Using=id, value=primary}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at frontEndTesting.RequestChequeBookTest.requestChequeBook(RequestChequeBookTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestChequeBook -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:frontEndTesting.RequestChequeBookTest@41e36e46]" started-at="2023-08-14T17:56:37 IST" name="cleanUp" finished-at="2023-08-14T17:56:37 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- frontEndTesting.RequestChequeBookTest -->
+    </test> <!-- RequestChequeBookTest -->
+  </suite> <!-- Suite -->
+</testng-results>

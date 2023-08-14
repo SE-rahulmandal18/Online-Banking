@@ -1,0 +1,52 @@
+.jumbotron {
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+}
+
+.profile .card-header {
+    font-size: 2em;
+    text-align: center;
+    padding: 0%;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.card-header {
+    color: rgb(0, 0, 0);
+    background-color: #90e0ef;
+    width: auto;
+    padding: 10px;
+    /* margin: 5px; */
+    border-radius:20px;
+    
+}
+
+.a {
+    width: 850px;
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.text {
+    
+    margin-left: 8%;
+    
+}
+
+#editbtn{
+    border-radius: 15px;
+    padding: 10px 20px;
+
+    
+}
+
+/* .card-text {
+    text-align: j;
+} */
